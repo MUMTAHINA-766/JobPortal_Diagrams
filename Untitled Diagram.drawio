@@ -1,9 +1,63 @@
-<mxfile host="app.diagrams.net" modified="2023-05-01T03:03:21.229Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.64" version="21.2.3" etag="x817RUHQvlgTDYHsrshI" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-01T03:13:53.013Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.64" etag="8McUXQC6mp54coFnj7Ad" version="21.2.3" type="github">
   <diagram name="Page-1" id="a1C_K4LXVdZR8F7xQt8c">
-    <mxGraphModel>
+    <mxGraphModel dx="945" dy="1690" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="FrXkM1BNhkIyhGq3hZtc-1" value="Candidate" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="140" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FrXkM1BNhkIyhGq3hZtc-2" value="Recriuter" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="380" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FrXkM1BNhkIyhGq3hZtc-3" value="Admin" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="730" y="250" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FrXkM1BNhkIyhGq3hZtc-4" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="590" as="sourcePoint" />
+            <mxPoint x="310" y="-10" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FrXkM1BNhkIyhGq3hZtc-5" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="600" as="sourcePoint" />
+            <mxPoint x="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FrXkM1BNhkIyhGq3hZtc-6" value="Registration" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="10" width="135" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FrXkM1BNhkIyhGq3hZtc-7" value="Login" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="50" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FrXkM1BNhkIyhGq3hZtc-8" value="Apply for Job" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="366.25" y="130" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FrXkM1BNhkIyhGq3hZtc-9" value="Post Job" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="367.5" y="80" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FrXkM1BNhkIyhGq3hZtc-10" value="Manage Account" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="260" width="123.75" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FrXkM1BNhkIyhGq3hZtc-11" value="Post Blog" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="320" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FrXkM1BNhkIyhGq3hZtc-12" value="Send mail" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="376.25" y="390" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FrXkM1BNhkIyhGq3hZtc-13" value="Update profile" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="372.5" y="440" width="125" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FrXkM1BNhkIyhGq3hZtc-16" value="Logout" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="550" width="132.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FrXkM1BNhkIyhGq3hZtc-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="FrXkM1BNhkIyhGq3hZtc-10" target="FrXkM1BNhkIyhGq3hZtc-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FrXkM1BNhkIyhGq3hZtc-18" value="Delete profile" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="490" width="130" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
